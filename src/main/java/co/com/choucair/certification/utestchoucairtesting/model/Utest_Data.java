@@ -17,6 +17,7 @@ public class Utest_Data {
     private String strMobileDevice;
     private String strMobileModel;
     private String strMobileOs;
+    private String strPassword;
 
     public String getStrFirstName() {
         return strFirstName;
@@ -136,5 +137,13 @@ public class Utest_Data {
 
     public void setStrMobileOs(String strMobileOs) {
         this.strMobileOs = strMobileOs;
+    }
+
+    public String getStrPassword() {
+        return strPassword;
+    }
+
+    public void setStrPassword(String strPassword) {
+        this.strPassword = strPassword;
     }
 }
