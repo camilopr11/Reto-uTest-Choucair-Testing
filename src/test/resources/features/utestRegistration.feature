@@ -6,4 +6,6 @@ Feature: uTest website register
   Scenario: User registration on uTest website
     Given than Camilo wants to register on uTest website
     When he fills all required personal information
+    | strFirstName | strLastName | strEmail | strBirthMonth | strBirthDay | strBirthYear |
+    | Camilo       | Pastrana    | camilop.rivas@gmail.com | March | 4   | 2000         |
     Then he completes the registration process successfully
