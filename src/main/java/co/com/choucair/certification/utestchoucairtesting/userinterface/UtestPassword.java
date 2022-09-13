@@ -21,6 +21,6 @@ public class UtestPassword {
             .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/form/div[6]/label/span[1]"));
 
     public static final Target COMPLETE_BTN = Target.the("Button to complete user registration")
-            .located(By.xpath("//a[@class='btn btn-blue']"));
+            .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/div/div/a"));
 
 }

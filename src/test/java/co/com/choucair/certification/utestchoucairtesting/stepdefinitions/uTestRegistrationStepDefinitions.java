@@ -1,11 +1,13 @@
 package co.com.choucair.certification.utestchoucairtesting.stepdefinitions;
 
 import co.com.choucair.certification.utestchoucairtesting.model.Utest_Data;
+import co.com.choucair.certification.utestchoucairtesting.questions.Answer;
 import co.com.choucair.certification.utestchoucairtesting.tasks.*;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
@@ -32,7 +34,7 @@ public class uTestRegistrationStepDefinitions {
     }
 
     @Then("^he completes the registration process successfully$")
-    public void heCompletesTheRegistrationProcessSuccessfully() {
-
+    public void heCompletesTheRegistrationProcessSuccessfully(List<Utest_Data> question) {
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(question)));
     }
 }

@@ -18,6 +18,7 @@ public class Utest_Data {
     private String strMobileModel;
     private String strMobileOs;
     private String strPassword;
+    private String strCompleted;
 
     public String getStrFirstName() {
         return strFirstName;
@@ -145,5 +146,13 @@ public class Utest_Data {
 
     public void setStrPassword(String strPassword) {
         this.strPassword = strPassword;
+    }
+
+    public String getStrCompleted() {
+        return strCompleted;
+    }
+
+    public void setStrCompleted(String strCompleted) {
+        this.strCompleted = strCompleted;
     }
 }
