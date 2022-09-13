@@ -11,5 +11,4 @@ public class UtestPage extends PageObject {
 
     public static final Target JOIN_BUTTON = Target.the("button that redirects us to the register form")
             .located(By.xpath("//a[@class='unauthenticated-nav-bar__sign-up']"));
-
 }
