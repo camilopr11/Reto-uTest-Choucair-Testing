@@ -2,6 +2,7 @@ package co.com.choucair.certification.utestchoucairtesting.stepdefinitions;
 
 import co.com.choucair.certification.utestchoucairtesting.model.Utest_Data;
 import co.com.choucair.certification.utestchoucairtesting.tasks.FillPersonalInfo;
+import co.com.choucair.certification.utestchoucairtesting.tasks.FillUserAddress;
 import co.com.choucair.certification.utestchoucairtesting.tasks.OpenUp;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
@@ -27,7 +28,7 @@ public class uTestRegistrationStepDefinitions {
 
     @When("^he fills all required personal information$")
     public void heFillsAllRequiredPersonalInformation(List<Utest_Data> data) {
-        OnStage.theActorInTheSpotlight().attemptsTo(FillPersonalInfo.theForm(data));
+        OnStage.theActorInTheSpotlight().attemptsTo(FillPersonalInfo.theForm(data), FillUserAddress.theForm(data));
 
     }
 

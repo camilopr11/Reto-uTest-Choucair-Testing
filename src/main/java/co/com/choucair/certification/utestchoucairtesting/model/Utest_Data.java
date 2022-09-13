@@ -8,6 +8,9 @@ public class Utest_Data {
     private String strBirthMonth;
     private String strBirthDay;
     private String strBirthYear;
+    private String strCity;
+    private String strZip;
+    private String strCountry;
 
     public String getStrFirstName() {
         return strFirstName;
@@ -55,5 +58,29 @@ public class Utest_Data {
 
     public void setStrBirthYear(String strBirthYear) {
         this.strBirthYear = strBirthYear;
+    }
+
+    public String getStrCity() {
+        return strCity;
+    }
+
+    public void setStrCity(String strCity) {
+        this.strCity = strCity;
+    }
+
+    public String getStrZip() {
+        return strZip;
+    }
+
+    public void setStrZip(String strZip) {
+        this.strZip = strZip;
+    }
+
+    public String getStrCountry() {
+        return strCountry;
+    }
+
+    public void setStrCountry(String strCountry) {
+        this.strCountry = strCountry;
     }
 }
