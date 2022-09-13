@@ -11,6 +11,12 @@ public class Utest_Data {
     private String strCity;
     private String strZip;
     private String strCountry;
+    private String strComputer;
+    private String strComputerVersion;
+    private String strComputerLanguage;
+    private String strMobileDevice;
+    private String strMobileModel;
+    private String strMobileOs;
 
     public String getStrFirstName() {
         return strFirstName;
@@ -82,5 +88,53 @@ public class Utest_Data {
 
     public void setStrCountry(String strCountry) {
         this.strCountry = strCountry;
+    }
+
+    public String getStrComputer() {
+        return strComputer;
+    }
+
+    public void setStrComputer(String strComputer) {
+        this.strComputer = strComputer;
+    }
+
+    public String getStrComputerVersion() {
+        return strComputerVersion;
+    }
+
+    public void setStrComputerVersion(String strComputerVersion) {
+        this.strComputerVersion = strComputerVersion;
+    }
+
+    public String getStrComputerLanguage() {
+        return strComputerLanguage;
+    }
+
+    public void setStrComputerLanguage(String strComputerLanguage) {
+        this.strComputerLanguage = strComputerLanguage;
+    }
+
+    public String getStrMobileDevice() {
+        return strMobileDevice;
+    }
+
+    public void setStrMobileDevice(String strMobileDevice) {
+        this.strMobileDevice = strMobileDevice;
+    }
+
+    public String getStrMobileModel() {
+        return strMobileModel;
+    }
+
+    public void setStrMobileModel(String strMobileModel) {
+        this.strMobileModel = strMobileModel;
+    }
+
+    public String getStrMobileOs() {
+        return strMobileOs;
+    }
+
+    public void setStrMobileOs(String strMobileOs) {
+        this.strMobileOs = strMobileOs;
     }
 }
