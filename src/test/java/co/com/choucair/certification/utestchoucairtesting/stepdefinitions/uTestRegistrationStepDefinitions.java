@@ -1,5 +1,6 @@
 package co.com.choucair.certification.utestchoucairtesting.stepdefinitions;
 
+import co.com.choucair.certification.utestchoucairtesting.tasks.OpenUp;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -15,6 +16,7 @@ public class uTestRegistrationStepDefinitions {
 
     @Given("^than Camilo wants to register on uTest website$")
     public void thanCamiloWantsToRegisterOnUTestWebsite() {
+        OnStage.theActorCalled("Camilo").wasAbleTo(OpenUp.thePage());
 
     }
 
